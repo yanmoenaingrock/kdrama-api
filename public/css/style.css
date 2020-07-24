@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    max-width: 70%;
+    margin: 0 auto;
+    box-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.3);
+    padding: 2rem 3rem;
+    list-style: none;
+    margin-top: 3rem;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+button {
+    /* background-color: ; */
+    color: purple;
+    padding: 0.5rem 2rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+.header {
+    max-width: 70%;
+    margin: 0 auto;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+    padding: 2rem 3rem;
+    list-style: none;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+.header__dramas {
+
+}
+
+.form {
+        max-width: 70%;
+        margin: 0 auto;
+        box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+        padding: 2rem 3rem;
+        list-style: none;
+        margin-top: 3rem;
+}
+
+.form__group {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.form__group:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.form__input {
+    font-size: inherit;
+    flex: 0 0 70%;
+    padding: 0.5rem 1rem;
+}
+
+.form__label {
+    flex: 0 0 25%;
+    text-transform: capitalize;
+}
+
+#form__submit{
+    background-color: rgb(238, 43, 222);
+    border: none;
+    color: white;
+}
